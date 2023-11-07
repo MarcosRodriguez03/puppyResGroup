@@ -1,24 +1,5 @@
 /* font-family: 'Fugaz One', sans-serif; */
 
-@font-face {
-    font-family: MontaukBold;
-    src: url(../Fonts/Montauk-Bold.otf);
-   font-weight: bold;
-}
-@font-face {
-    font-family: MontaukRegular;
-    src: url(../Fonts/Montauk-Regular.otf);
-}
-@font-face {
-    font-family: MontaukItalic;
-    src: url(../Fonts/Montauk-Italic.otf);
-    font-style: italic;
-}
-@font-face {
-    font-family: MontaukLight;
-    src: url(../Fonts/Montauk-Light.otf);
-    font-weight: lighter;
-}
 
 
 
@@ -28,15 +9,31 @@
 
 
 
-.logoSizing{
-    width: 290px; height: 92px;
-}
 
-.Montauk
-{
-    font-family: MontaukRegular;
-    color: #5F002B;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .MontaukLight
 {
@@ -44,16 +41,9 @@
     color: #5F002B;
 }
 
-.padding{
-    padding-left: 7.29%;
-    padding-right:7.29% ;
-}
 
-body{
-    background-image: url(../assets/bgtexture.jpg);
-    color: #5F002B;
-    
-}
+
+
 
 hr{
     color: #5F002B ;
@@ -84,14 +74,7 @@ div.b {
 
 
 
-/* navbar start */
-.navFontAdjust{
-    font-size: 20px;
-    font-family: 'Fugaz One', sans-serif;
-    color: #5F002B;
 
-}
-/* navbar end */
 
 
 
@@ -160,9 +143,7 @@ div.b {
 
 
 @media screen and (max-width: 620px) {
-    .logoSizing{
-        width: 145px; height: auto;
-    }
+   
 
     .entreeFont{
         font-family: MontaukLight;
