@@ -28,11 +28,19 @@
 
 
 
-
+.logoSizing{
+    width: 290px; height: 92px;
+}
 
 .Montauk
 {
     font-family: MontaukRegular;
+    color: #5F002B;
+}
+
+.MontaukLight
+{
+    font-family: MontaukLight;
     color: #5F002B;
 }
 
@@ -43,6 +51,7 @@
 
 body{
     background-image: url(../assets/bgtexture.jpg);
+    color: #5F002B;
     
 }
 
@@ -58,6 +67,15 @@ hr{
 
 .card-body{
     line-height: .5;
+}
+
+.insideBodySpacing{
+    line-height: 1;
+}
+
+.xAxisPaddingCard{
+padding-left:5% ;
+padding-right:5% ;
 }
 
 div.b {
@@ -99,19 +117,29 @@ div.b {
 }
 
 .discFont{
-    font-size: 20px;
+    font-size: 16px;
     font-family: MontaukLight;
     color: #5F002B;
+    line-height: 1;
+}
+
+.discFont2{
+    font-size: 20px;
+    font-family: MontaukRegular;
+    color: #5F002B;
+    line-height: 1;
 }
 
 .entreeFont{
     font-family: MontaukLight;
     font-size: 30px;
     color: #5F002B;
+    line-height: 1;
+    margin-bottom: 0;
 }
 .priceFont{
     font-family: MontaukLight;
-    font-size: 35px;
+    font-size: 30px;
     color: #5F002B;
 }
 
@@ -130,3 +158,35 @@ div.b {
     padding-top: 100px;
 }
 
+
+@media screen and (max-width: 620px) {
+    .logoSizing{
+        width: 145px; height: auto;
+    }
+
+    .entreeFont{
+        font-family: MontaukLight;
+        font-size: 20px;
+        color: #5F002B;
+        line-height: 1;
+        margin-bottom: 0;
+    }
+    .priceFont{
+        font-family: MontaukLight;
+        font-size: 20px;
+        color: #5F002B;
+    }
+    .padding{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .ourMenu{
+        background-color: white;
+        font-size:30px ;
+        font-family: 'Fugaz One', sans-serif;
+        text-align: center;
+        color: #5F002B;
+    
+    }
+    
+  }
