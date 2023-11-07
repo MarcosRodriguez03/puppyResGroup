@@ -22,7 +22,6 @@ body {
 @font-face {
   font-family: MontaukLight;
   src: url(../Fonts/Montauk-Light.otf);
-  
 }
 
 .fugazOne {
@@ -55,8 +54,7 @@ body {
   padding-left: 7.29%;
   padding-right: 7.29%;
 }
-.centerMe
-{
-    display: flex;
-    justify-content: center;
+.centerMe {
+  display: flex;
+  justify-content: center;
 }
