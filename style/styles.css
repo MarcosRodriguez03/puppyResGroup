@@ -7,7 +7,6 @@ body {
 @font-face {
   font-family: MontaukBold;
   src: url(../Fonts/Montauk-Bold.otf);
-  font-weight: bold;
 }
 
 @font-face {
@@ -18,13 +17,12 @@ body {
 @font-face {
   font-family: MontaukItalic;
   src: url(../Fonts/Montauk-Italic.otf);
-  font-style: italic;
 }
 
 @font-face {
   font-family: MontaukLight;
   src: url(../Fonts/Montauk-Light.otf);
-  font-weight: lighter;
+  
 }
 
 .fugazOne {
