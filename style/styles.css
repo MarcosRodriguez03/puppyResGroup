@@ -1,0 +1,42 @@
+
+@font-face {
+    font-family: MontaukBold;
+    src: url(../Fonts/Montauk-Bold.otf);
+   font-weight: bold;
+}
+@font-face {
+    font-family: MontaukRegular;
+    src: url(../Fonts/Montauk-Regular.otf);
+}
+@font-face {
+    font-family: MontaukItalic;
+    src: url(../Fonts/Montauk-Italic.otf);
+    font-style: italic;
+}
+@font-face {
+    font-family: MontaukLight;
+    src: url(../Fonts/Montauk-Light.otf);
+    font-weight: lighter;
+}
+.navFontAdjust{
+    font-size: 20px;
+    font-family: 'Fugaz One', sans-serif;
+    color: #5F002B;
+}
+body{
+    background-image: url(../assets/bgtexture.jpg);
+}
+h1{
+    background-color: white;
+    font-size: 50px;
+    font-family: 'Fugaz One', sans-serif;
+    text-align: center;
+    
+
+}
+.padding{
+    padding-left: 7.29%;
+    padding-right:7.29% ;
+    font-family: MontaukLight;
+    color: #5F002B;
+}
