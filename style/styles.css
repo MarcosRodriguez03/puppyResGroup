@@ -26,10 +26,12 @@ body {
 
 .fugazOne {
   font-family: "Fugaz One", sans-serif;
+  color: #5f002b;
 }
 
 .Montauk {
   font-family: MontaukRegular;
+  color: #5f002b;
 }
 
 .boldMe {
@@ -42,6 +44,7 @@ body {
 
 .lighterText {
   font-family: MontaukLight;
+  color: #5f002b;
 }
 
 .navFontAdjust {
