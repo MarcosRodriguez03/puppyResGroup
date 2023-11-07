@@ -1,0 +1,132 @@
+/* font-family: 'Fugaz One', sans-serif; */
+
+@font-face {
+    font-family: MontaukBold;
+    src: url(../Fonts/Montauk-Bold.otf);
+   font-weight: bold;
+}
+@font-face {
+    font-family: MontaukRegular;
+    src: url(../Fonts/Montauk-Regular.otf);
+}
+@font-face {
+    font-family: MontaukItalic;
+    src: url(../Fonts/Montauk-Italic.otf);
+    font-style: italic;
+}
+@font-face {
+    font-family: MontaukLight;
+    src: url(../Fonts/Montauk-Light.otf);
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Montauk
+{
+    font-family: MontaukRegular;
+    color: #5F002B;
+}
+
+.padding{
+    padding-left: 7.29%;
+    padding-right:7.29% ;
+}
+
+body{
+    background-image: url(../assets/bgtexture.jpg);
+    
+}
+
+hr{
+    color: #5F002B ;
+    opacity: 100;
+}
+
+/* div.a{
+    padding:50px;
+} */
+
+
+.card-body{
+    line-height: .5;
+}
+
+div.b {
+    line-height: 1 !important;
+}
+
+
+
+/* navbar start */
+.navFontAdjust{
+    font-size: 20px;
+    font-family: 'Fugaz One', sans-serif;
+    color: #5F002B;
+
+}
+/* navbar end */
+
+
+
+
+/* body start */
+.ourMenu{
+    background-color: white;
+    font-size:50px ;
+    font-family: 'Fugaz One', sans-serif;
+    text-align: center;
+    color: #5F002B;
+
+}
+/* body end */
+
+
+
+
+.headerFont{
+    font-size:30px ;
+    font-family: 'Fugaz One', sans-serif;
+    color: #5F002B;
+}
+
+.discFont{
+    font-size: 20px;
+    font-family: MontaukLight;
+    color: #5F002B;
+}
+
+.entreeFont{
+    font-family: MontaukLight;
+    font-size: 30px;
+    color: #5F002B;
+}
+.priceFont{
+    font-family: MontaukLight;
+    font-size: 35px;
+    color: #5F002B;
+}
+
+.menuSpacing{
+    padding-top: 4%;
+}
+
+.catering0Spacing{
+    padding-top: 80px;
+}
+.catering1Spacing{
+    padding-top: 90px;
+}
+
+.catering2Spacing{
+    padding-top: 100px;
+}
+
