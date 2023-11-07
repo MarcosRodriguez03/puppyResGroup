@@ -21,11 +21,11 @@
 
   <body>
     <!-- Header Start -->
-    <section class="padding pt-3">
-      <nav class="navbar navbar-expand-lg">
+    <section class="padding pt-3 pb-5">
+      <nav class="navbar navbar-expand-xl">
         <a class="ps-4 navbar-brand" href="../index.html">
           <img
-            style="width: 290px; height: 92px"
+            class="logoSizing"
             src="../assets/MuzzlesLogo.png"
             alt="MuzzlesLogo"
           />
@@ -46,9 +46,7 @@
           id="navbarNavAltMarkup"
         >
           <div class="navbar-nav">
-            <a
-              class="px-4 navFontAdjust nav-link"
-              href="../Pages/aboutPage.html"
+            <a class="px-4 navFontAdjust nav-link" href="aboutPage.html"
               >About</a
             >
             <a class="px-4 navFontAdjust nav-link" aria-current="page" href="#"
@@ -62,19 +60,16 @@
     </section>
     <!-- Header End -->
     <br /><br />
-    <div class="container-fluid padding" style="height: 62.5%;">
+    <div class="container-fluid padding" style="height: 62.5%">
       <div class="row">
-        <div class="col">
+        <div class="col-5 d-md-block d-sm-none d-none">
           <img
             src="../assets/AboutMain.jpg"
             alt="Two of our employees"
-            style="height: 674.5px; width: 674.5px"
+            style="height: 100%; width: 100%; object-fit: cover"
           />
         </div>
-        <div
-          class="col Montauk"
-          style="background-color: white;"
-        >
+        <div class="col-7 Montauk SBTG">
           <h1 class="fugazOne">The Story Behind the Grill</h1>
           <p style="font-size: 15px">
             Malesuada fames ac turpis egestas integer eget aliquet nibh
@@ -119,11 +114,11 @@
         </div>
       </div>
     </div>
-    <br>
-    <div class="container padding" style="background-color: white; height: 80px;">
+    <br />
+    <div class="container-fluid padding" style="height: 80px">
       <div class="row">
-        <div class="col ">
-          <h3 class="fugazOne centerMe" style="padding-top: 2%;">Our Team</h3>
+        <div class="col" style="background-color: white">
+          <h3 class="fugazOne centerMe" style="padding-top: 1%">Our Team</h3>
         </div>
       </div>
     </div>
@@ -147,6 +142,7 @@
             </div>
           </div>
         </div>
+        <div class="w-100 d-lg-none d-md-block"><br /><br /></div>
         <div class="col">
           <div class="card rounded-0" style="width: 100%">
             <img
@@ -167,6 +163,7 @@
             </div>
           </div>
         </div>
+        <div class="w-100 d-lg-none d-md-block"><br /><br /></div>
         <div class="col">
           <div class="card rounded-0" style="width: 100%">
             <img src="../assets/doxie1.jpg" class="card-img-top" alt="Louie" />
@@ -188,7 +185,11 @@
       <div class="row">
         <div class="col">
           <div class="card rounded-0" style="width: 100%">
-            <img src="../assets/novascotia.jpg" class="card-img-top" alt="Willow" />
+            <img
+              src="../assets/novascotia.jpg"
+              class="card-img-top"
+              alt="Willow"
+            />
             <div class="card-body">
               <h2 class="fugazOne">Willow</h2>
               <p class="card-text lighterText" style="font-size: 15px">
@@ -202,12 +203,17 @@
             </div>
           </div>
         </div>
+        <div class="w-100 d-lg-none d-md-block"><br /><br /></div>
         <div class="col">
           <div class="card rounded-0" style="width: 100%">
-            <img src="../assets/doxie2.jpg" class="card-img-top" alt="Skittles" />
+            <img
+              src="../assets/doxie2.jpg"
+              class="card-img-top"
+              alt="Skittles"
+            />
             <div class="card-body">
               <h2 class="fugazOne">Skittles</h2>
-              <p class="card-text lighterText" style="font-size: 15px;">
+              <p class="card-text lighterText" style="font-size: 15px">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Massa sed elementum tempus egestas sed sed risus. Feugiat
@@ -218,9 +224,14 @@
             </div>
           </div>
         </div>
+        <div class="w-100 d-lg-none d-md-block"><br /><br /></div>
         <div class="col">
           <div class="card rounded-0" style="width: 100%">
-            <img src="../assets//staffie.jpg" class="card-img-top" alt="Mario" />
+            <img
+              src="../assets//staffie.jpg"
+              class="card-img-top"
+              alt="Mario"
+            />
             <div class="card-body">
               <h2 class="fugazOne">Mario</h2>
               <p class="card-text lighterText" style="font-size: 15px">
@@ -236,10 +247,10 @@
         </div>
       </div>
     </div>
-<br><br><br>
+    <br /><br /><br />
     <!-- Our Team End -->
     <!-- Footer Start -->
-    <footer class="padding">
+    <footer class="padding d-none d-sm-block">
       <div class="container-fluid lighterText">
         <div class="row">
           <div class="col" style="font-size: 20px">
@@ -253,6 +264,7 @@
             />
           </div>
         </div>
+
         <div class="row">
           <div
             class="col"
@@ -262,7 +274,7 @@
           </div>
           <div
             class="col-4"
-            style="display: flex; justify-content: right; font-size: 20px"
+            style="display: flex; justify-content: right; font-size: 15px"
           >
             Copyright © Muzzles Restaurant
           </div>

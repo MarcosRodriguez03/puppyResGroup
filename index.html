@@ -21,11 +21,11 @@
 
   <body>
     <!-- Header Start -->
-    <section class="padding pt-3">
-      <nav class="navbar navbar-expand-lg">
-        <a class="ps-4 navbar-brand" href="#">
+    <section class="padding pt-3 pb-5">
+      <nav class="navbar navbar-expand-xl">
+        <a class="ps-4 navbar-brand" href="./index.html">
           <img
-            style="width: 290px; height: 92px"
+            class="logoSizing"
             src="../assets/MuzzlesLogo.png"
             alt="MuzzlesLogo"
           />
@@ -46,13 +46,16 @@
           id="navbarNavAltMarkup"
         >
           <div class="navbar-nav">
-            <a class="px-4 navFontAdjust nav-link" href="./Pages/aboutPage.html"
-              >About</a
-            >
-            <a class="px-4 navFontAdjust nav-link" aria-current="page" href="#"
+            <a class="px-4 navFontAdjust nav-link" href="./Pages/aboutPage.html">About</a>
+            <a
+              class="px-4 navFontAdjust nav-link"
+              aria-current="page"
+              href="./page3.html"
               >Menu</a
             >
-            <a class="px-4 navFontAdjust nav-link" href="#">Catering</a>
+            <a class="px-4 navFontAdjust nav-link" href="./page4.html"
+              >Catering</a
+            >
             <a class="ps-4 navFontAdjust nav-link" href="#">Photo</a>
           </div>
         </div>
@@ -62,19 +65,20 @@
     <img
       src="./assets/homeHero.jpg"
       alt="The front entrance"
-      style="height: 600; width: 100%"
+      style="height: 15%; width: 100%"
     />
     <br /><br /><br /><br /><br /><br />
     <div class="container-fluid padding">
       <div class="row">
         <div class="col">
           <img
+            class="homePicture"
             src="./assets/homeSingle.jpg"
             alt="sandwich image"
-            style="height: 449.5px; width: 100%"
           />
         </div>
-        <div class="col" style="background-color: #ffffff;"">
+        <div class="d-lg-none d-md-block"><br /><br /></div>
+        <div class="col" style="background-color: #ffffff">
           <h1 class="fugazOne">Muzzles Sandwiches & Grill</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ullam
@@ -82,11 +86,11 @@
             nostrum natus hic placeat tenetur, blanditiis totam delectus
             possimus facere est?
           </p>
-          <div class="row" style="padding-top: 21.3%;">
+          <div class="row" style="padding-top: 20.9%">
             <img
               src="./assets/HomeImage.jpg"
               alt="Three images of a sandwich, a dog and sliders"
-              style="padding: 0%;"
+              style="padding: 0%"
             />
           </div>
         </div>
@@ -95,7 +99,7 @@
 
     <br /><br /><br />
     <!-- Footer Start -->
-    <footer class="padding">
+    <footer class="padding d-none d-sm-block">
       <div class="container-fluid lighterText">
         <div class="row">
           <div class="col" style="font-size: 20px">
@@ -109,6 +113,7 @@
             />
           </div>
         </div>
+
         <div class="row">
           <div
             class="col"
@@ -118,7 +123,7 @@
           </div>
           <div
             class="col-4"
-            style="display: flex; justify-content: right; font-size: 20px"
+            style="display: flex; justify-content: right; font-size: 15px"
           >
             Copyright © Muzzles Restaurant
           </div>

@@ -1,3 +1,6 @@
+a:hover {
+  color: #5f002b;
+}
 body {
   background-image: url(../assets/bgtexture.jpg);
   color: #5f002b;
@@ -60,4 +63,42 @@ body {
 .centerMe {
   display: flex;
   justify-content: center;
+}
+.logoSizing {
+  width: 290px;
+  height: 92px;
+}
+.SBTG {
+  background-color: white;
+}
+.homePicture {
+  height: 449.5px;
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .logoSizing {
+    width: 145px;
+    height: auto;
+  }
+  .fugazOne {
+    font-size: 25px;
+  }
+  p {
+    font-size: 15px;
+    font-family: MontaukRegular;
+    color: #5f002b;
+  }
+  .homePicture
+  {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .SBTG {
+    background-color: white;
+    width: 100%;
+  }
 }
