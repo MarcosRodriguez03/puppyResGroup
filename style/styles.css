@@ -48,7 +48,6 @@ body {
 .italisizeMe {
   font-family: MontaukItalic;
 }
-
 .lighterText {
   font-family: MontaukLight;
   color: #5f002b;
@@ -74,6 +73,9 @@ body {
 }
 .SBTG {
   background-color: white;
+  padding-left: 2%;
+  padding-top: 2.5%;
+  line-height: 1;
 }
 .homePicture {
   height: 100%;
