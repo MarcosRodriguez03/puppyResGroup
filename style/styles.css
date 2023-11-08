@@ -113,12 +113,11 @@ body {
     height: 0%;
     width: 100%;
   }
-  .HomeText
-  {
+  .HomeText {
     width: 100%;
   }
 }
 
-.border{
-    border: 10px solid white !important;
+.border {
+  border: 10px solid white !important;
 }
