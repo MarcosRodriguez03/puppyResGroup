@@ -1,45 +1,116 @@
+a:hover {
+  color: #5f002b;
+}
+body {
+  background-image: url(../assets/bgtexture.jpg);
+  color: #5f002b;
+  font-size: 20px;
+}
 
 @font-face {
-    font-family: MontaukBold;
-    src: url(../Fonts/Montauk-Bold.otf);
-   font-weight: bold;
+  font-family: MontaukBold;
+  src: url(../Fonts/Montauk-Bold.otf);
 }
+
 @font-face {
+  font-family: MontaukRegular;
+  src: url(../Fonts/Montauk-Regular.otf);
+}
+
+@font-face {
+  font-family: MontaukItalic;
+  src: url(../Fonts/Montauk-Italic.otf);
+}
+
+@font-face {
+  font-family: MontaukLight;
+  src: url(../Fonts/Montauk-Light.otf);
+}
+.mainPicture {
+  width: 100%;
+  object-fit: cover;
+}
+
+.fugazOne {
+  font-family: "Fugaz One", sans-serif;
+  color: #5f002b;
+}
+
+.Montauk {
+  font-family: MontaukRegular;
+  color: #5f002b;
+}
+
+.boldMe {
+  font-family: MontaukBold;
+}
+
+.italisizeMe {
+  font-family: MontaukItalic;
+}
+.lighterText {
+  font-family: MontaukLight;
+  color: #5f002b;
+}
+
+.navFontAdjust {
+  font-size: 20px;
+  font-family: "Fugaz One", sans-serif;
+  color: #5f002b;
+}
+
+.padding {
+  padding-left: 7.29%;
+  padding-right: 7.29%;
+}
+.centerMe {
+  display: flex;
+  justify-content: center;
+}
+.logoSizing {
+  width: 290px;
+  height: 92px;
+}
+.SBTG {
+  background-color: white;
+  padding-left: 2%;
+  padding-top: 2.5%;
+  line-height: 1;
+}
+.homePicture {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .logoSizing {
+    width: 145px;
+    height: auto;
+  }
+  .fugazOne {
+    font-size: 25px;
+  }
+  p {
+    font-size: 15px;
     font-family: MontaukRegular;
-    src: url(../Fonts/Montauk-Regular.otf);
-}
-@font-face {
-    font-family: MontaukItalic;
-    src: url(../Fonts/Montauk-Italic.otf);
-    font-style: italic;
-}
-@font-face {
-    font-family: MontaukLight;
-    src: url(../Fonts/Montauk-Light.otf);
-    font-weight: lighter;
-}
-.navFontAdjust{
-    font-size: 20px;
-    font-family: 'Fugaz One', sans-serif;
-    color: #5F002B;
-}
-body{
-    background-image: url(../assets/bgtexture.jpg);
-}
-h1{
-    background-color: white;
-    font-size: 50px;
-    font-family: 'Fugaz One', sans-serif;
+    color: #5f002b;
+  }
+  .homePicture {
+    height: 10%;
+    width: 100%;
+  }
+  .THBTG {
+    margin-top: 3%;
     text-align: center;
-    
+  }
+}
 
-}
-.padding{
-    padding-left: 7.29%;
-    padding-right:7.29% ;
-    font-family: MontaukLight;
-    color: #5F002B;
-}
-.border{
-    border: 10px solid white !important;
+@media screen and (max-width: 769px) {
+  .SBTG {
+    background-color: white;
+    width: 100%;
+  }
+  .mainPicture {
+    width: 0%;
+  }
 }
