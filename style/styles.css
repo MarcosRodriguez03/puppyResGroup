@@ -26,6 +26,10 @@ body {
   font-family: MontaukLight;
   src: url(../Fonts/Montauk-Light.otf);
 }
+.mainPicture {
+  width: 100%;
+  object-fit: cover;
+}
 
 .fugazOne {
   font-family: "Fugaz One", sans-serif;
@@ -89,22 +93,22 @@ body {
     font-family: MontaukRegular;
     color: #5f002b;
   }
-  .homePicture
-  {
+  .homePicture {
     height: 10%;
     width: 100%;
   }
-  .THBTG
-  {
+  .THBTG {
     margin-top: 3%;
-   text-align: center;
+    text-align: center;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .SBTG {
     background-color: white;
     width: 100%;
   }
-  
+  .mainPicture {
+    width: 0%;
+  }
 }
