@@ -95,10 +95,6 @@ body {
     font-family: MontaukRegular;
     color: #5f002b;
   }
-  .homePicture {
-    height: 10%;
-    width: 100%;
-  }
   .THBTG {
     margin-top: 3%;
     text-align: center;
@@ -112,5 +108,13 @@ body {
   }
   .mainPicture {
     width: 0%;
+  }
+  .homePicture {
+    height: 0%;
+    width: 100%;
+  }
+  .HomeText
+  {
+    width: 100%;
   }
 }
