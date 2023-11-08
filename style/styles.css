@@ -40,3 +40,6 @@ h1{
     font-family: MontaukLight;
     color: #5F002B;
 }
+.border{
+    border: 10px solid white !important;
+}
