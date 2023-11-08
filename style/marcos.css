@@ -18,6 +18,20 @@
 
 
 
+.rightFooterText{
+font-size: 20px;
+text-align: end;
+}
+
+.leftFooterText{
+font-size: 20px;
+text-align: start;
+}
+
+.rightFooterLogo{
+display: flex;
+justify-content: right;
+}
 
 
 
@@ -28,8 +42,10 @@
 
 
 
-
-
+.marginTag{
+    margin-right:7.29% ;
+    margin-left: 7.29%;
+}
 
 
 
@@ -100,7 +116,7 @@ div.b {
 }
 
 .discFont{
-    font-size: 16px;
+    font-size: 20;
     font-family: MontaukLight;
     color: #5F002B;
     line-height: 1;
@@ -114,15 +130,15 @@ div.b {
 }
 
 .entreeFont{
-    font-family: MontaukLight;
-    font-size: 30px;
+    font-family: MontaukLight ;
+    font-size: 35px ;
     color: #5F002B;
     line-height: 1;
     margin-bottom: 0;
 }
 .priceFont{
     font-family: MontaukLight;
-    font-size: 30px;
+    font-size: 35px;
     color: #5F002B;
 }
 
@@ -131,14 +147,14 @@ div.b {
 }
 
 .catering0Spacing{
-    padding-top: 80px;
+    padding-top: 4.58%;
 }
 .catering1Spacing{
-    padding-top: 90px;
+    padding-top: 4.80%;
 }
 
 .catering2Spacing{
-    padding-top: 100px;
+    padding-top: 5.25%;
 }
 
 
@@ -158,8 +174,8 @@ div.b {
         color: #5F002B;
     }
     .padding{
-        padding-left: 3%;
-        padding-right: 3%;
+        padding-left: 3% !important;
+        padding-right: 3% !important;
     }
     .ourMenu{
         background-color: white;
@@ -170,4 +186,21 @@ div.b {
     
     }
     
+  }
+
+  @media screen and (max-width: 992px){
+    .rightFooterText{
+        font-size: 20px;
+        text-align: center;
+        }
+        
+        .leftFooterText{
+        font-size: 20px;
+        text-align: center;
+        }
+        
+        .rightFooterLogo{
+        display: flex;
+        justify-content: center;
+        }
   }
