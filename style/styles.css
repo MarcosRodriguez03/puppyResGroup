@@ -118,3 +118,7 @@ body {
     width: 100%;
   }
 }
+
+.border{
+    border: 10px solid white !important;
+}
