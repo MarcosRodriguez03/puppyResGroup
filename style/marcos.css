@@ -6,7 +6,15 @@
 
 
 
-
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
 
 
 
@@ -158,7 +166,41 @@ div.b {
 }
 
 
-@media screen and (max-width: 620px) {
+
+@media screen and (max-width: 375px) {
+   
+
+    .discFont2{
+        font-family: MontaukLight;
+        font-size: 18px !important;
+        color: #5F002B;
+        line-height: 1;
+       
+    }
+
+    
+    
+  }
+
+
+  @media screen and (max-width: 992px){
+    .rightFooterText{
+        font-size: 20px;
+        text-align: center;
+        }
+        
+        .leftFooterText{
+        font-size: 20px;
+        text-align: center;
+        }
+        
+        .rightFooterLogo{
+        display: flex;
+        justify-content: center;
+        }
+  }
+
+  @media screen and (max-width: 620px) {
    
 
     .entreeFont{
@@ -188,19 +230,4 @@ div.b {
     
   }
 
-  @media screen and (max-width: 992px){
-    .rightFooterText{
-        font-size: 20px;
-        text-align: center;
-        }
-        
-        .leftFooterText{
-        font-size: 20px;
-        text-align: center;
-        }
-        
-        .rightFooterLogo{
-        display: flex;
-        justify-content: center;
-        }
-  }
+  
