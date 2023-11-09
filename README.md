@@ -5,7 +5,7 @@
 -We each took our own pages to work on from the proto. From their we created the five pages and added responsiveness to each one. Each page has a phone, tablet, and desktop version.
 
 -Peer Review: Sinatha Chin
--Comments:
+-Comments 11/9/23 at 1:30pm :
     Home Page: Everything looks good on 1920px! Responsiveness is also working well and images are responsive and not stretched.
 
     About Page: The only thing I see that I would change is adding a space between the Our Teams header and the cards in the desktop version, there is space in the prototype. Overall though, everything looks good here as well as responsiveness!
