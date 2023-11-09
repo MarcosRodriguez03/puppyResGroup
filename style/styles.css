@@ -9,140 +9,128 @@ footer {
   margin-top: auto;
 }
 
-.rightFooterText{
-font-size: 20px;
-text-align: end;
+.rightFooterText {
+  font-size: 20px;
+  text-align: end;
 }
 
-.leftFooterText{
-font-size: 20px;
-text-align: start;
+.leftFooterText {
+  font-size: 20px;
+  text-align: start;
 }
 
-.rightFooterLogo{
-display: flex;
-justify-content: right;
+.rightFooterLogo {
+  display: flex;
+  justify-content: right;
 }
 
-.marginTag{
-  margin-right:7.29% ;
+.marginTag {
+  margin-right: 7.29%;
   margin-left: 7.29%;
 }
 
-.MontaukLight
-{
+.MontaukLight {
   font-family: MontaukLight;
-  color: #5F002B;
+  color: #5f002b;
 }
 
-hr{
-  color: #5F002B ;
+hr {
+  color: #5f002b;
   opacity: 100;
 }
 
-.card-bodyMarcos{
-  line-height: .5;
+.card-bodyMarcos {
+  line-height: 0.5;
 }
 
-.insideBodySpacing{
+.insideBodySpacing {
   line-height: 1;
 }
 
-.xAxisPaddingCard{
-padding-left:5% ;
-padding-right:5% ;
+.xAxisPaddingCard {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 div.b {
   line-height: 1 !important;
 }
 
-
-.ourMenu{
+.ourMenu {
   background-color: white;
-  font-size:50px ;
-  font-family: 'Fugaz One', sans-serif;
+  font-size: 50px;
+  font-family: "Fugaz One", sans-serif;
   text-align: center;
-  color: #5F002B;
-
+  color: #5f002b;
 }
 
-.headerFont{
-  font-size:30px ;
-  font-family: 'Fugaz One', sans-serif;
-  color: #5F002B;
+.headerFont {
+  font-size: 30px;
+  font-family: "Fugaz One", sans-serif;
+  color: #5f002b;
 }
 
-.discFont{
+.discFont {
   font-size: 20;
   font-family: MontaukLight;
-  color: #5F002B;
+  color: #5f002b;
   line-height: 1;
 }
 
-.discFont2{
+.discFont2 {
   font-size: 20px;
   font-family: MontaukRegular;
-  color: #5F002B;
+  color: #5f002b;
   line-height: 1;
 }
 
-.entreeFont{
-  font-family: MontaukLight ;
-  font-size: 35px ;
-  color: #5F002B;
+.entreeFont {
+  font-family: MontaukLight;
+  font-size: 35px;
+  color: #5f002b;
   line-height: 1;
   margin-bottom: 0;
 }
-.priceFont{
+.priceFont {
   font-family: MontaukLight;
   font-size: 35px;
-  color: #5F002B;
+  color: #5f002b;
 }
 
-.menuSpacing{
+.menuSpacing {
   padding-top: 4%;
 }
 
-.catering0Spacing{
+.catering0Spacing {
   padding-top: 4.58%;
 }
-.catering1Spacing{
-  padding-top: 4.80%;
+.catering1Spacing {
+  padding-top: 4.8%;
 }
 
-.catering2Spacing{
+.catering2Spacing {
   padding-top: 5.25%;
 }
 
-
-
 /* mainly marcos code end */
-
 
 /* mainly aiden code start */
 
-
-
-.indexFont{
+.indexFont {
   font-size: 50px;
   color: #5f002b;
   font-family: "Fugaz One", sans-serif;
-
 }
 
-.indexPaddingX1{
+.indexPaddingX1 {
   padding-top: 6.9%;
 }
 
-.homePictureV2{
+.homePictureV2 {
   height: 449.5px;
   width: 100%;
   object-fit: cover;
-  
 }
-
-
 
 a:hover {
   color: #5f002b;
@@ -226,42 +214,30 @@ body {
 .homePicture {
   height: 100%;
   width: 100%;
-/* mainly aiden code end */
-
-
-
-
-
+  /* mainly aiden code end */
 }
 /* Mainly Ak code */
 .border {
   border: 10px solid white !important;
 }
 
-
-
-
 /* Mainly Ak Code end */
 
+@media screen and (max-width: 992px) {
+  .rightFooterText {
+    font-size: 20px;
+    text-align: center;
+  }
 
+  .leftFooterText {
+    font-size: 20px;
+    text-align: center;
+  }
 
-
-
-@media screen and (max-width: 992px){
-  .rightFooterText{
-      font-size: 20px;
-      text-align: center;
-      }
-      
-      .leftFooterText{
-      font-size: 20px;
-      text-align: center;
-      }
-      
-      .rightFooterLogo{
-      display: flex;
-      justify-content: center;
-      }
+  .rightFooterLogo {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 769px) {
@@ -282,38 +258,34 @@ body {
 }
 
 @media screen and (max-width: 620px) {
- 
-
-  .entreeFont{
-      font-family: MontaukLight;
-      font-size: 20px;
-      color: #5F002B;
-      line-height: 1;
-      margin-bottom: 0;
+  .entreeFont {
+    font-family: MontaukLight;
+    font-size: 20px;
+    color: #5f002b;
+    line-height: 1;
+    margin-bottom: 0;
   }
-  .priceFont{
-      font-family: MontaukLight;
-      font-size: 20px;
-      color: #5F002B;
+  .priceFont {
+    font-family: MontaukLight;
+    font-size: 20px;
+    color: #5f002b;
   }
-  .padding{
-      padding-left: 3% !important;
-      padding-right: 3% !important;
+  .padding {
+    padding-left: 3% !important;
+    padding-right: 3% !important;
   }
-  .ourMenu{
-      background-color: white;
-      font-size:30px ;
-      font-family: 'Fugaz One', sans-serif;
-      text-align: center;
-      color: #5F002B;
-  
+  .ourMenu {
+    background-color: white;
+    font-size: 30px;
+    font-family: "Fugaz One", sans-serif;
+    text-align: center;
+    color: #5f002b;
   }
-  
 }
 
 @media screen and (max-width: 576px) {
-  .indexFont{
-    font-size: 25px ;
+  .indexFont {
+    font-size: 25px;
   }
 
   .logoSizing {
@@ -323,27 +295,16 @@ body {
   .fugazOne {
     font-size: 25px;
   }
-  p {
-    font-size: 15px;
-    font-family: MontaukRegular;
-    color: #5f002b;
-  }
   .THBTG {
     margin-top: 3%;
     text-align: center;
   }
 }
 @media screen and (max-width: 375px) {
- 
-
-  .discFont2{
-      font-family: MontaukLight;
-      font-size: 18px !important;
-      color: #5F002B;
-      line-height: 1;
-     
+  .discFont2 {
+    font-family: MontaukLight;
+    font-size: 18px !important;
+    color: #5f002b;
+    line-height: 1;
   }
-
-  
-  
 }
