@@ -1,11 +1,6 @@
 /* font-family: 'Fugaz One', sans-serif; */
 
 
-
-
-
-
-
 body {
     min-height: 100vh;
     display: flex;
@@ -15,16 +10,6 @@ body {
   footer {
     margin-top: auto;
   }
-
-
-
-
-
-
-
-
-
-
 
 .rightFooterText{
 font-size: 20px;
@@ -41,23 +26,10 @@ display: flex;
 justify-content: right;
 }
 
-
-
-
-
-
-
-
-
-
 .marginTag{
     margin-right:7.29% ;
     margin-left: 7.29%;
 }
-
-
-
-
 
 .MontaukLight
 {
@@ -65,19 +37,10 @@ justify-content: right;
     color: #5F002B;
 }
 
-
-
-
-
 hr{
     color: #5F002B ;
     opacity: 100;
 }
-
-/* div.a{
-    padding:50px;
-} */
-
 
 .card-body{
     line-height: .5;
@@ -97,13 +60,6 @@ div.b {
 }
 
 
-
-
-
-
-
-
-/* body start */
 .ourMenu{
     background-color: white;
     font-size:50px ;
@@ -112,10 +68,6 @@ div.b {
     color: #5F002B;
 
 }
-/* body end */
-
-
-
 
 .headerFont{
     font-size:30px ;
@@ -167,20 +119,7 @@ div.b {
 
 
 
-@media screen and (max-width: 375px) {
-   
 
-    .discFont2{
-        font-family: MontaukLight;
-        font-size: 18px !important;
-        color: #5F002B;
-        line-height: 1;
-       
-    }
-
-    
-    
-  }
 
 
   @media screen and (max-width: 992px){
@@ -230,4 +169,18 @@ div.b {
     
   }
 
+  @media screen and (max-width: 375px) {
+   
+
+    .discFont2{
+        font-family: MontaukLight;
+        font-size: 18px !important;
+        color: #5F002B;
+        line-height: 1;
+       
+    }
+
+    
+    
+  }
   
